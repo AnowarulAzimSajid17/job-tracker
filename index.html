@@ -25,9 +25,26 @@
   </style>
 </head>
 
-<body>
-
-
+<body class="bg-[#F8FAFC]">
+  <!-- Header Section Begins Here -->
+  <header class="w-[80%] mx-auto my-16">
+    <!-- Dashbord Section -->
+    <h2 class="text-4xl font-bold text-[#002C5C] mb-5">Job Application Tracker</h2>
+    <section class="dashbord-cards grid grid-cols-3 gap-4">
+      <div class="bg-white p-5 rounded-xl">
+        <p class="text-[14px] font-medium">Total</p>
+        <h5 id="totalCount" class="text-2xl text-[#002C5C] font-bold">0</h5>
+      </div>
+      <div class="bg-white p-5 rounded-xl">
+        <p class="text-[14px] font-medium">Interview</p>
+        <h5 id="interviewCount" class="text-2xl text-green-500 font-bold">0</h5>
+      </div>
+      <div class="bg-white p-5 rounded-xl">
+        <p class="text-[14px] font-medium">Rejected</p>
+        <h5 id="rejectedCount" class="text-2xl text-red-500 font-bold">0</h5>
+      </div>
+    </section>
+  </header>
 
   <!-- Javascript File Link -->
   <script src="js/script.js"></script>
